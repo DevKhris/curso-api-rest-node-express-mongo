@@ -9,10 +9,15 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "DevKhris",
+  "type": "module",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "mongoose": "^6.0.12",
     "nodemon": "^2.0.14"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5"
   }
 }
