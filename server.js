@@ -59,7 +59,7 @@ app.delete('/contacts/:contactId', (req, res) => {
 
 
 app.listen(port, host, () => {
-    console.info(`[+] Starting server at http://${host}:${port}`)
+    console.info(`[+] Starting server, listening at http://${host}:${port}`)
 })
 
 export default app
