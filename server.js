@@ -41,7 +41,7 @@ app.set('port', port || 3000)
 
 // Routes
 app.get('/', (req, res) => {
-  res.send('Hello welcome to my API')
+  res.send('Hello and welcome to my contacts API')
 })
 
 app.use('/api/v1/contacts/', contactsRouter)

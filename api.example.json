@@ -1,0 +1,162 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Contacts API",
+    "dateExported": "2021-12-16T17:56:45.571Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "containerId": "",
+            "sortNum": 10000,
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.io)"
+                }
+            ],
+            "colId": "a6349dea-a193-48f0-a182-a414c08dd14d",
+            "name": "Get Contacts",
+            "url": "localhost:3000/api/v1/contacts",
+            "method": "GET",
+            "modified": "2021-12-16T17:54:15.884Z",
+            "created": "2021-12-16T17:49:43.323Z",
+            "_id": "3b0de27d-34ce-4c1a-8df2-6a77b6650ff5",
+            "params": [],
+            "tests": []
+        },
+        {
+            "containerId": "",
+            "sortNum": 20000,
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.io)",
+                    "isDisabled": true
+                }
+            ],
+            "colId": "a6349dea-a193-48f0-a182-a414c08dd14d",
+            "name": "Create Contact",
+            "url": "http://localhost:3000/api/v1/contacts/",
+            "method": "POST",
+            "modified": "2021-12-16T17:54:39.793Z",
+            "created": "2021-12-16T15:00:14.771Z",
+            "_id": "729e48ec-b9f5-41ad-b092-3223174565d6",
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "lastName",
+                        "value": "John"
+                    },
+                    {
+                        "name": "firstName",
+                        "value": "Titor"
+                    },
+                    {
+                        "name": "email",
+                        "value": "timetravel_t@example.com"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "containerId": "",
+            "sortNum": 30000,
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.io)"
+                }
+            ],
+            "colId": "a6349dea-a193-48f0-a182-a414c08dd14d",
+            "name": "Get Contact by Id",
+            "url": "localhost:3000/api/v1/contacts/61bb7c1fa73217a9fe8ede35",
+            "method": "GET",
+            "modified": "2021-12-16T17:55:17.095Z",
+            "created": "2021-12-16T17:49:56.511Z",
+            "_id": "20bdd847-ae84-4e52-937b-1193bb92d385",
+            "params": [],
+            "tests": []
+        },
+        {
+            "containerId": "",
+            "sortNum": 40000,
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.io)"
+                }
+            ],
+            "colId": "a6349dea-a193-48f0-a182-a414c08dd14d",
+            "name": "Update Contact by Id",
+            "url": "localhost:3000/api/v1/contacts/61bb7c1fa73217a9fe8ede35",
+            "method": "PUT",
+            "modified": "2021-12-16T17:55:50.856Z",
+            "created": "2021-12-16T17:51:13.731Z",
+            "_id": "80c1e44d-30cd-4e01-927d-fdbc6b49814e",
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "firstName",
+                        "value": "John"
+                    },
+                    {
+                        "name": "lastName",
+                        "value": "Doe"
+                    },
+                    {
+                        "name": "email",
+                        "value": "john@doe.net"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "containerId": "",
+            "sortNum": 50000,
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.io)"
+                }
+            ],
+            "colId": "a6349dea-a193-48f0-a182-a414c08dd14d",
+            "name": "Delete Contact By Id",
+            "url": "localhost:3000/api/v1/contacts/61bb7c1fa73217a9fe8ede35",
+            "method": "DELETE",
+            "modified": "2021-12-16T17:56:02.952Z",
+            "created": "2021-12-16T17:53:20.528Z",
+            "_id": "9b501070-884c-44cc-b44a-36989fb32a06",
+            "params": [],
+            "tests": []
+        }
+    ]
+}
