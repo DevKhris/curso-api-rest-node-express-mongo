@@ -4,7 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "dev": "standard --fix && nodemon server.js",
+    "dev": "nodemon server.js",
+    "build": "standard --fix",
     "prod": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,6 +16,7 @@
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "mongoose": "^6.0.12",
+    "morgan": "^1.10.0",
     "nodemon": "^2.0.14",
     "validator": "^13.7.0"
   },
